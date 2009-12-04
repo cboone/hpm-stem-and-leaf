@@ -127,7 +127,12 @@ stem.and.leaf <- function(data, unit, m, Min, Max,
   debug.show("class.of.data.tr")
   class.of.data.tr  <- c(1:length(skala),class.of.data.tr)
   leaf.grouped      <- split(c(rep(-1,length(skala)),leaf),class.of.data.tr)
-  leaf.grouped      <- lapply(leaf.grouped, function(x){ sort(x[-1]) })
+  # debug.show("leaf.grouped")
+  if (sort) {
+    leaf.grouped <- lapply(leaf.grouped, function(x) { sort(x[-1]) })
+  } else {
+    leaf.grouped <- lapply(leaf.grouped, function(x) { x[-1] })
+  }
   # debug.show("leaf.grouped")
   
   leaf.grouped.ch <- paste("|",unlist(lapply(leaf.grouped,paste,collapse="")))

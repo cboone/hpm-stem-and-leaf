@@ -10,6 +10,11 @@ Experimental stem and leaf plot creation in R. Based on [Peter Wolf and Uni Biel
 - [A simple test file.][4]
 - [List of all the White Mountains over 4000 feet.][5] From the AMC, [as noted by the Leisurely Backpacker][6]
 
+## Changes from the original. ##
+
+- 
+
+
 [1]: http://hypsometry.com
 [2]: http://cran.r-project.org/web/packages/aplpack/index.html
 [3]: http://github.com/cboone/hpm-stem-and-leaf/blob/master/R/stem.and.leaf.R
