@@ -8,7 +8,7 @@ Experimental stem and leaf plot creation in R. Based on [Peter Wolf and Uni Biel
 
 - [The stem.and.leaf() function.][3]
 - [A simple test file.][4]
-- [List of all the White Mountains over 4000 feet.][5] From the AMC, [as noted by the Leisurely Backpacker][6]
+- [List of all the White Mountains over 4000 feet.][5] From the AMC, [as noted by the Leisurely Backpacker.][6] Alphabetized.
 
 ## Changes from the original. ##
 
