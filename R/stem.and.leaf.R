@@ -1,6 +1,6 @@
 stem.and.leaf <- function(data, unit, m, Min, Max, 
                       rule.line = c("Dixon", "Velleman", "Sturges"), style = c("Tukey", "bare"),
-                      trim.outliers = TRUE, depths = TRUE, reverse.negative.leaves = TRUE, sort = TRUE,
+                      trim.outliers = TRUE, depths = TRUE, reverse.negative.leaves = TRUE, sort = FALSE,
                       na.rm = FALSE) {
   if (0 < length(h <- find("debug.cond")) && ".GlobalEnv" %in% h) {
     debug.cond <- get("debug.cond", env = .GlobalEnv)

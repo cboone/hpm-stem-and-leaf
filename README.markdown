@@ -12,7 +12,7 @@ Experimental stem and leaf plot creation in R. Based on [Peter Wolf and Uni Biel
 
 ## Changes from the original. ##
 
-- 
+- Sorting of leaf values is optional. Include the parameter `sort = TRUE` to turn it on.
 
 
 [1]: http://hypsometry.com
