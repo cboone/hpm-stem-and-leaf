@@ -4,4 +4,6 @@ source("R/stem.and.leaf.R")
 
 whites <- read.csv("data/whites.csv")
 
-stem.leaf(t(whites[2]))
+# stem.and.leaf(t(whites[2]))
+stem.and.leaf(t(whites[2]), sort = FALSE)
+# stem.and.leaf(t(whites[2]), sort = FALSE, trim.outliers = FALSE)
